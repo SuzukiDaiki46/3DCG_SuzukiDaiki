@@ -54,7 +54,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmdLi
 
         // step-3 ワールド行列を作成
         Matrix mWorld;
-        mWorld.MakeTranslation(0.5f, 0.4f, 0.0f);
+        mWorld.MakeTranslation(-0.7f, 0.0f, 0.0f);
 
         // step-4 ワールド行列をグラフィックメモリにコピー
         cb.CopyToVRAM(mWorld);
